@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-
+app = Flask(__name__)
 @app.route('/xz4yamgs/acc_creation')
 def acc_creation():
     return render_template('acc_creation.html')
